@@ -8,6 +8,10 @@ public class Aluno extends Pessoa {
         this.matr = 0;
     }
 
+    public final void pagarMensalidade(){
+        System.out.println("Pagando mensalidade de aluno" + this.getNome());
+    }
+
     public int getMatr() {
         return matr;
     }

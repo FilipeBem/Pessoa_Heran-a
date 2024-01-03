@@ -4,7 +4,7 @@ public class Professor extends Pessoa {
     private float salario;
 
     public void receberAumento(float aum){
-
+        System.out.println("Recebeu almento o(a) Docente " + this.getNome());
     }
 
     public char getEspecialidade() {
